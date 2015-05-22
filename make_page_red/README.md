@@ -1,12 +1,12 @@
-µ¥»÷Í¼±ê°ÑÒ³Ãæ±³¾°±äÎªºìÉ«µÄBrowser Action
+ï»¿å•å‡»å›¾æ ‡æŠŠé¡µé¢èƒŒæ™¯å˜ä¸ºçº¢è‰²çš„Browser Action
 -----------------
-Ê¹ÓÃ background_page, browser_action and tabs
+ä½¿ç”¨ background_page, browser_action and tabs
 -----------------
-##µ÷ÓÃ:
+##è°ƒç”¨:
  - chrome.browserAction.onClicked
  - chrome.browserAction.setBadgeBackgroundColor
  - chrome.browserAction.setBadgeText
  - chrome.tabs.executeScript
-##Ô´ÎÄ¼ş:
+##æºæ–‡ä»¶:
  - background.js
  - manifest.json

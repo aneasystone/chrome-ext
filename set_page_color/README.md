@@ -1,10 +1,10 @@
-¿É¸Ä±äÒ³ÃæÑÕÉ«µÄBrowser Action£¬´øpopupÒ³ÃæÓÃÒÔÖ¸¶¨ÑÕÉ«
+ï»¿å¯æ”¹å˜é¡µé¢é¢œè‰²çš„Browser Actionï¼Œå¸¦popupé¡µé¢ç”¨ä»¥æŒ‡å®šé¢œè‰²
 --------------------
-Ê¹ÓÃ browser_action and tabs
+ä½¿ç”¨ browser_action and tabs
 --------------------
-##µ÷ÓÃ:
+##è°ƒç”¨:
  - chrome.tabs.executeScript
-##Ô´ÎÄ¼ş:
+##æºæ–‡ä»¶:
  - manifest.json
  - popup.html
  - popup.js

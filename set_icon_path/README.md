@@ -1,10 +1,10 @@
-µ¥»÷¿ÉÒÔ¸Ä±äÍ¼±êµÄBrowser Action
+ï»¿å•å‡»å¯ä»¥æ”¹å˜å›¾æ ‡çš„Browser Action
 ----------------------
-Ê¹ÓÃ background_page, browser_action and tabs
+ä½¿ç”¨ background_page, browser_action and tabs
 ----------------------
-##µ÷ÓÃ:
+##è°ƒç”¨:
  - chrome.browserAction.onClicked
  - chrome.browserAction.setIcon
-##Ô´ÎÄ¼ş:
+##æºæ–‡ä»¶:
  - background.js
  - manifest.json
