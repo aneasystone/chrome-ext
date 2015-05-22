@@ -1,15 +1,15 @@
-App ¼ÓÔØ
+ï»¿App åŠ è½½
 -------------------
-Ê¹ÓÃ browser_action and management
+ä½¿ç”¨ browser_action and management
 
-##µ÷ÓÃ:
+##è°ƒç”¨:
  - chrome.extension.getURL
  - chrome.management.get
  - chrome.management.getAll
  - chrome.management.launchApp
  - chrome.tabs.create
 
-##Ô´ÎÄ¼ş:
+##æºæ–‡ä»¶:
  - manifest.json
  - popup.css
  - popup.html

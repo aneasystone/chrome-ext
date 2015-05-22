@@ -1,9 +1,9 @@
-Page Action¶¯»­Í¼±ê
+ï»¿Page ActionåŠ¨ç”»å›¾æ ‡
 --------------------
-Ê¹ÓÃ background_page, page_action and tabs
-Õâ¸öÀ©Õ¹ÔÚ¹¤¾ßÀ¸ÉÏÌí¼ÓÒ»¸öËæä¯ÀÀ¶ø±ä¶¯µÄPage ActionÍ¼±ê
+ä½¿ç”¨ background_page, page_action and tabs
+è¿™ä¸ªæ‰©å±•åœ¨å·¥å…·æ ä¸Šæ·»åŠ ä¸€ä¸ªéšæµè§ˆè€Œå˜åŠ¨çš„Page Actionå›¾æ ‡
 
-##µ÷ÓÃ:
+##è°ƒç”¨:
  - chrome.pageAction.hide
  - chrome.pageAction.onClicked
  - chrome.pageAction.setIcon
@@ -11,6 +11,6 @@ Page Action¶¯»­Í¼±ê
  - chrome.pageAction.show
  - chrome.tabs.get
 
-##Ô´ÎÄ¼ş:
+##æºæ–‡ä»¶:
  - background.html
  - manifest.json
