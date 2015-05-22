@@ -7,6 +7,7 @@
  - chrome.browserAction.setBadgeBackgroundColor
  - chrome.browserAction.setBadgeText
  - chrome.tabs.executeScript
+
 ##源文件:
  - background.js
  - manifest.json
