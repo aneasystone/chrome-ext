@@ -1,7 +1,7 @@
-�հ��±�ǩҳ
+﻿空白新标签页
 ------------
-ʹ�� chrome_url_overrides
+使用 chrome_url_overrides
 
-##Դ�ļ�:
+##源文件:
  - blank.html
  - manifest.json
