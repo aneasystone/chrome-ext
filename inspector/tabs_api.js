@@ -46,7 +46,7 @@ function updateTabData(id) {
   var retval = {
     url: document.getElementById('url_' + id).value,
     selected: document.getElementById('selected_' + id).value ? true : false
-  }
+  };
 
   return retval;
 }
@@ -63,7 +63,7 @@ function moveTabData(id) {
   return {
     'index': parseInt(document.getElementById('index_' + id).value),
     'windowId': parseInt(document.getElementById('windowId_' + id).value)
-  }
+  };
 }
 function moveTab(id) {
   try {
@@ -80,7 +80,7 @@ function createTabData(id) {
     'index': parseInt(document.getElementById('index_' + id).value),
     'url': document.getElementById('url_' + id).value,
     'selected': document.getElementById('selected_' + id).value ? true : false
-  }
+  };
 }
 
 function createTab() {
@@ -218,7 +218,7 @@ function createWindow() {
     'width': parseInt(document.getElementById('new_window_width').value),
     'height': parseInt(document.getElementById('new_window_height').value),
     'url': document.getElementById('new_window_url').value
-  }
+  };
 
   if (!isInt(args.left))
     delete args.left;
@@ -258,7 +258,7 @@ function updateWindowData(id) {
     top: parseInt(document.getElementById('top_' + id).value),
     width: parseInt(document.getElementById('width_' + id).value),
     height: parseInt(document.getElementById('height_' + id).value)
-  }
+  };
   if (!isInt(retval.left))
     delete retval.left;
   if (!isInt(retval.top))
@@ -290,7 +290,7 @@ function removeWindow(windowId) {
 }
 
 function refreshSelectedTab(windowId) {
-  chrome.tabs.query({active: true, currentWindow: true} function(tabs) {
+  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
     var input = new JsExprContext(tabs[0]);
     var output = document.getElementById('tab_' + tabs[0].id);
     jstProcess(input, output);
